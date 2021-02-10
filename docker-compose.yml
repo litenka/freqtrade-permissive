@@ -2,7 +2,7 @@
 version: '3'
 services:
   freqtrade:
-    image: litenka/freqtrade-plot:latest
+    image: litenka/freqtrade-test:stable
     # Build step - only needed when additional dependencies are needed
     # build:
     #   context: .
